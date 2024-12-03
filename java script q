@@ -1,0 +1,24 @@
+console.log("-----Welcome in JS-----")
+var var1 = 5;
+var var2 = "variable 2 in string format"
+var var3 = 84378487388747837489;
+console.log(var1,var2,var3);
+var num1 = 5;
+var num2 = 6;
+var num3 = 7;
+var num4 = 8;
+var num5 = 9;
+ console.log("sum=",num1+num2+num3+num4+num5);
+if (num2 > num1 && num2 > num3 && num2 > num4) {
+    console.log("num1 is greater than num2");
+}else if(num3 > num2 && num3 > num1 && num3 > num4 ){
+console.log("greater no. is num2");
+}else if(num3 > num2 && num3 > num1 && num3 > num4){
+    console.log("greater Num is num3");
+}
+    else if(num4 > num1 && num4 > num2 && num4 > num3){
+        console.log("greater no. is num4")
+    }
+    for(let i = 1; i<11; i++) {
+        console.log("10 *",i,"=",10*i);
+    }
